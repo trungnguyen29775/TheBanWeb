@@ -165,6 +165,7 @@ html{
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0;
+    
 }
 
 #content .content-section .section-heading
@@ -197,8 +198,6 @@ html{
 #content .section-member
 {
     margin-top: 30px;
-    display: flexbox;
-    justify-content: space-around;
 }
 
 .section-member .member1,
@@ -215,11 +214,137 @@ html{
 .section-member .member-name
 {
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .section-member .member-img
 {
-    width: 200px;
+    width: 153px;
+    height: 153px;
+}
+
+.tour-section
+{
+
+    background-color: #000;
+}
+
+.tour-section .content-section
+{
+    color: white;
+}
+
+.tour-section .ticket-status
+{
+    margin-top: 30px;
+    background-color: white;
+    color: rgb(221, 221, 221);
+}
+
+
+.list-of-month .month-line
+{
+    list-style:none;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+
+}
+
+.month-line .month
+{
+    color: #000;
+    padding: 8px 16px;
+}   
+
+.month-line .status-month
+{
+    display: inline-block;
+    margin-left: 16px;
+    padding: 0 8px;
+    background-color: rgb(244, 67, 54);
+    color: rgb(255, 255, 255);
+
+}
+
+ .status-month-available
+{
+    background-color: black;
+    float:right;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    width: 24px;
+    height:24px;
+    text-align: center;
+    margin-left: 15px;
+    line-height: 24px;
+}
+
+.place-section
+{
+    padding: 32px 0px;
+    color: black;
+    
+}
+
+.place-section .place
+{
+    display: inline-block;
+    margin-right: 28px; 
+    margin-bottom: 16px;
+}
+
+
+.place-section .place3
+{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.place .img
+{
+    height:183px;
+    width: 245px;
+}
+
+.place3 .img
+{
+    height:183px;
+    width: 245px;
+}
+
+.place-section .place-info
+{
+    background-color: white;
+    width: 245px;
+    padding: 0.15px 16px;
+}
+
+.place-info .country
+{
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.place-info .sub-month
+{
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+.place-info .tiltle
+{
+    margin-bottom: 15px;
+}
+
+.place-info .buy-ticket
+{
+    background-color: black;
+    color: white;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    width: fit-content;
 }
 
 #footer{
