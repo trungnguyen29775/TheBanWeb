@@ -194,6 +194,33 @@ html{
     line-height: 1.4;
 }
 
+#content .section-member
+{
+    margin-top: 30px;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.section-member .member1,
+.section-member .member2,
+.section-member .member3
+{
+    margin-right: 40px;
+    display:inline-block;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+}
+
+.section-member .member-name
+{
+    font-size: 15px;
+}
+
+.section-member .member-img
+{
+    width: 200px;
+}
 
 #footer{
 
