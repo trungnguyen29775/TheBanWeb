@@ -345,6 +345,18 @@ html{
     margin-bottom: 16px;
     padding: 8px 16px;
     width: fit-content;
+    position: relative;
+}
+
+.buy-ticket .clicked-buy-ticket
+{
+    position: absolute;
+    background-color: white;
+}
+
+.place-info .buy-ticket:hover
+{
+    
 }
 
 #footer{
