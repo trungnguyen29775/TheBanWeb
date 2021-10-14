@@ -114,7 +114,7 @@
                             <p class="country">New York</p>
                             <p class="sub-month">Fri 27 Nov 2016</p>
                             <p class="tiltle">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <div class="buy-ticket">Buy Tickets</div>
+                            <a href="#" class="buy-ticket">Buy Tickets</a>
                         </div>
                     </div>
 
@@ -126,9 +126,9 @@
                             <p class="country">Paris</p>
                             <p class="sub-month">Sat 28 Nov 2016</p>
                             <p class="tiltle">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <div class="buy-ticket">
+                            <a href="#" class="buy-ticket">
                                 Buy Tickets
-                            </div>
+                            </a>
                         </div>
                     </div>
 
@@ -140,7 +140,7 @@
                             <p class="country">San Francisco</p>
                             <p class="sub-month">Sun 29 Nov 2016</p>
                             <p class="tiltle">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <div class="buy-ticket">Buy Tickets</div>
+                            <a href="#" class="buy-ticket">Buy Tickets</a>
                         </div>
                     </div>
 
@@ -167,6 +167,41 @@
 
         </div>
         
+    </div>
+
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <header class="modal-header">
+                <i class="ti-bag">Tickets</i>
+            </header>
+            <div class="modal-body">
+                <label for="" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" class="modal-input" placeholder="How many?">
+            </div>
+
+            <div class="modal-body">
+                <label for="" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input type="text" class="modal-input" placeholder="Enter Email...">
+                <button id="buy-tickets">
+                    Pay
+                    <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <div class="modal-footer">
+                <p class="modal-help">Need <a href="#">help</a></p>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>
