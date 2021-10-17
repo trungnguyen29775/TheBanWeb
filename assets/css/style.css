@@ -473,6 +473,7 @@ html{
 {
     font-size: 10px;
     font-weight:bolder;
+    border: 0;
 }
 
 .footer-close:hover
@@ -487,6 +488,7 @@ html{
     display: inline;
     float: right;
     margin: 15px 0;
+    margin-right: 25px;
     
 }
 
@@ -495,6 +497,126 @@ html{
     display: flex;
 }
 
-#footer{
+.contact-section
+{
+   
+}
+.contact-section .contact-body
+{
+    margin-top: 50px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
 
+.contact-info .ul-info
+{
+    list-style-type: none;
+}
+
+.ul-info .info
+{
+    margin-bottom: 10px;
+}
+
+.ul-info .li-info
+{
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+
+.ul-info .contact-li-icon
+{
+    font-weight: bolder;
+}
+
+.form .name-form{
+    height: 35px;
+    font-size: 16px;
+    margin-right: 5px;
+   
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(212, 208, 208);
+}
+.form .email-form
+{
+    font-size: 16px;
+    height: 35px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(212, 208, 208);
+}
+
+.form .message-form
+{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom:20px;
+    height: 35px;
+    width: 100%;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(212, 208, 208);
+}
+
+.form .form-button
+{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    float: right;
+    border: 0;
+}
+
+.form-button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#footer{
+    
+}
+
+.footer-end
+{
+    padding:64px 16px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.footer-img
+{
+    width: 100%;
+    filter: grayscale(50%);
+}
+.footer-end-icon
+{
+    width: fit-content;
+    color: rgb(122, 117, 117);
+    margin-right: 1px;
+}
+.footer-end-icon:hover
+{
+    color: rgb(190, 186, 186);
+}
+
+.footer-end .power-by
+{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(122, 117, 117);
+}
+.link-power-by
+{
+    background-color: transparent;
+    color: rgb(122, 117, 117);
+    cursor: pointer;
+    text-decoration: underline;
+    
 }
