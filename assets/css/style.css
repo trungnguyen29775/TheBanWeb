@@ -348,6 +348,7 @@ html{
     padding: 8px 16px;
     width: fit-content;
     text-decoration: none;
+    cursor: pointer;
 
 }
 
@@ -368,7 +369,7 @@ html{
     display: none;
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: none;
 }
 
 .modal .modal-container
@@ -378,7 +379,7 @@ html{
     max-width: calc(100%-32px);
     min-height: 200px;
     position: relative;
-
+    animation: modalFadeIn ease 0.5s;
 }
 
 .modal .modal-header
@@ -467,6 +468,7 @@ html{
     margin: 16px ;
     text-align: center;
     display: inline-block;
+    cursor: pointer;
 }
 
 .footer-close .close-buttom
@@ -474,6 +476,7 @@ html{
     font-size: 10px;
     font-weight:bolder;
     border: 0;
+    
 }
 
 .footer-close:hover
@@ -492,7 +495,7 @@ html{
     
 }
 
-.modal .open
+.open
 {
     display: flex;
 }
@@ -619,4 +622,18 @@ html{
     cursor: pointer;
     text-decoration: underline;
     
+}
+
+@keyframes modalFadeIn
+{
+    from
+    {
+        opacity: 0;
+        transform:translateY(-130px);
+    }
+    to
+    {
+        opacity: 1;
+        transform:translateY(0px);
+    }
 }
